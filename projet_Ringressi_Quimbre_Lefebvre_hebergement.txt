@@ -1,0 +1,9 @@
+Pour l'hébergement on va utiliser un service cloud public tel que AWS qui offre des solutions robustes et fiables pour les entreprises.
+
+Pour que les ressources cloud soit redondantes et disponibles à 99,99% on met en place un cluster de réplication de bases de données avec "Amazon Aurora MySQL".
+
+Pour garantir la disponibilité des données en cas d'interruption d'un site, on va déployer l'architecture cloud sur deux sites géographiques distincts en Europe en utilisant des technologies de réplication de données telles que la réplication active-active ou active-passive. Pour ce faire, on va utiliser "Multi-Region Infrastructure Deployment".
+
+Ensuite on va automatiser les processus de sauvegarde et de restauration pour atteindre un temps de restauration de 4 heures maximum en utilisant "AWS Backup".
+
+Ce modèle d'architecture garantit une haute disponibilité et une récupération rapide en cas de panne grâce à la redondance géographique et à la mise en place de processus automatisés de sauvegarde et de restauration.
